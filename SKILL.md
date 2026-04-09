@@ -42,6 +42,7 @@ O que você quer fazer?
 5. **Formatar em LaTeX** — Preciso formatar no template SBC
 6. **Validar o artigo** — Quero revisar qualidade, DoD e score de rubrica
 7. **Escolher onde publicar** — Preciso selecionar o evento/revista SBC certo
+8. **Verificar citações** — Quero validar se uma referência existe e checar seu Qualis
 
 **Aguarde sua resposta antes de prosseguir.**
 </intake>
@@ -56,6 +57,7 @@ O que você quer fazer?
 | 5, "latex", "formatar", "template", "formato" | `workflows/latex-formatting.md` |
 | 6, "validar", "revisar", "qualidade", "checar", "DoD", "rubrica" | `workflows/validate-article.md` |
 | 7, "venue", "evento", "publicar", "onde", "QUALIS", "submeter" | `workflows/select-venue.md` |
+| 8, "verificar", "citação", "bibtex", "validar citação" | `workflows/check-citations.md` |
 | outro | Peça esclarecimento e roteie |
 
 **Após ler o workflow, siga-o exatamente.**
@@ -93,4 +95,5 @@ Templates prontos em `templates/`:
 | latex-formatting.md | Formatação LaTeX completa no template SBC |
 | validate-article.md | Validação com DoD Checklist + Rubrica de Qualidade + veredicto |
 | select-venue.md | Seleciona evento/periódico SBC adequado com base em área, nível e deadline |
+| check-citations.md | Verifica a existência de uma citação e identifica seu Qualis |
 </workflows_index>
