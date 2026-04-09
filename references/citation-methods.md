@@ -123,6 +123,19 @@ A SBC usa estilo próprio baseado em ABNT, mas com variações. Sempre confira o
 | Connected Papers | connectedpapers.com | Descobrir trabalhos relacionados |
 
 **Dica para trabalhos relacionados:** Use "Citado por" no Google Scholar para encontrar trabalhos que citam os mesmos artigos fundamentais da área — esses são seus trabalhos relacionados diretos.
-</where_to_find>
+<verifying_citations>
+**Verificando Citações:**
+
+Antes de incluir uma referência no seu trabalho, valide sua existência e integridade:
+
+1. **Busca por Título/Autor**: Utilize Google Scholar ou DBLP para garantir que o artigo realmente existe e não é um "alucinação" de IA ou erro de memória.
+2. **Conferência vs. Journal**: Identifique se o trabalho foi publicado em anais de evento (`@inproceedings`) ou periódico (`@article`). Isso altera drasticamente a busca pelo Qualis.
+3. **Validação de Campos BibTeX**:
+   - **Título**: Deve estar completo. Use chaves duplas `{{Título}}` para preservar maiúsculas obrigatórias (ex: `{{BERT}}`, `{{SQL}}`).
+   - **Autores**: Use o formato `Sobrenome, Nome and Sobrenome2, Nome2`. Nunca use vírgulas para separar autores, apenas a palavra `and`.
+   - **Ano**: Verifique se o ano no BibTeX bate com a data de publicação oficial.
+   - **Local (Venue)**: Certifique-se de que o nome da conferência ou jornal está correto e não abreviado de forma ambígua.
+4. **Sincronização com Buscadores**: Muitos buscadores (como o ACM DL ou IEEE Xplore) oferecem um botão "Export Citation" ou "BibTeX". Prefira esses aos gerados manualmente, mas sempre revise campos como `pages` e `doi`.
+</verifying_citations>
 
 </citation_methods>

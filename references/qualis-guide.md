@@ -15,17 +15,24 @@
 O QUALIS é o sistema oficial brasileiro de estratificação de produção científica,
 usado por programas de pós-graduação para avaliar a qualidade das publicações.
 
-**Estratos atuais (Ciência da Computação):**
-- **A1** — máximo; impacto internacional alto
-- **A2** — muito bom; conferências/periódicos top da área
-- **A3/A4** — bom; conferências nacionais consolidadas
-- **B1-B4** — regular; eventos menores ou regionais
-- **C** — sem pontuação relevante para pós-graduação
+**Novo Modelo Qualis de Referência (2025-2028):**
+A partir de 2025, o Qualis deixa de ser uma "lista fixa" manual e passa a ser baseado em **percentis bibliométricos** automáticos, garantindo maior transparência e alinhamento internacional.
 
-**Como encontrar o QUALIS de um venue:**
-1. Acesse: https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf
-2. Busque pelo ISSN, título ou sigla do evento
-3. Filtre por área "CIÊNCIA DA COMPUTAÇÃO"
+**Critérios por tipo de Venue:**
+- **Periódicos (Journals):** Classificados pelo **CiteScore** (Scopus) ou **Impact Factor** (JCR/Web of Science). O extrato (A1-C) é definido pela posição do periódico no ranking global da sua subárea.
+- **Conferências (Conferences):** Classificadas pelo **h5-index** (Google Scholar Metrics). Conferências com maior h5-index na área de Computação recebem estratos superiores.
+
+**Estratos (Ciência da Computação):**
+- **A1** — Top 12.5% (Elite mundial)
+- **A2** — Top 25% (Impacto internacional alto)
+- **A3/A4** — Top 50% (Conferências nacionais/internacionais consolidadas)
+- **B1-B4** — Impacto regular; eventos regionais ou em crescimento
+- **C** — Sem pontuação ou abaixo do limiar bibliométrico
+
+**Como encontrar o QUALIS atualizado:**
+1. Consulte o **h5-index** do evento no Google Scholar Metrics (para conferências).
+2. Consulte o **CiteScore** no Scopus ou **IF** no Web of Science (para periódicos).
+3. Use ferramentas da comunidade como o **PPGCC/PUCRS Qualis Lookup** ou a Plataforma Sucupira (https://sucupira.capes.gov.br).
 
 ---
 
